@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class overlappoint : MonoBehaviour
+public class overlapcolider : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -11,9 +11,6 @@ public class overlappoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 pos = transform.position;
-
-       // if (Rigidbody2D.OverlapPoint(pos) != true)
-            return;
+        //Physics2D.OverlapCollider(Collider2D collider, List<Collider2D> results);
     }
 }
